@@ -7,9 +7,17 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>4.0.0</version> <!-- Replace with the correct version when available -->
+        <version>4.9.0</version> <!-- Replace with the correct version when available -->
+    </dependency>
+    
+    <!-- Other dependencies here -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>4.0.0</version> <!-- Check for the latest version on Maven Central -->
     </dependency>
 </dependencies>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
